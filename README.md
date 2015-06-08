@@ -30,7 +30,7 @@ Ensure the mkdocs.yml is in the correct place:
     ln -s aurora_theme/mkdocs.yml .
 
 
-Currently, mkdocs doesn't support rendering README.md as the index page. Move docs/README.md to docs/index.md.
+Currently, mkdocs [doesn't support](https://github.com/mkdocs/mkdocs/issues/608) rendering `README.md` as the index page. Move docs/README.md to docs/index.md.
 
     mv docs/{README,index}.md
 
