@@ -1,0 +1,28 @@
+<div class="container-fluid section-footer buffer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-md-offset-1"><h3>Quick Links</h3>
+        <ul>
+          <li><a href="/downloads/">Downloads</a></li>
+          <li><a href="/community/">Mailing Lists</a></li>
+          <li><a href="http://issues.apache.org/jira/browse/AURORA">Issue Tracking</a></li>
+          <li><a href="/documentation/latest/contributing/">How To Contribute</a></li>     
+        </ul>
+        </div>
+        <div class="col-md-2"><h3>The ASF</h3>
+        <ul>
+          <li><a href="http://www.apache.org/licenses/">License</a></li>
+          <li><a href="http://www.apache.org/foundation/sponsorship.html">Sponsorship</a></li>  
+          <li><a href="http://www.apache.org/foundation/thanks.html">Thanks</a></li>
+          <li><a href="http://www.apache.org/security/">Security</a></li>
+        </ul>
+      </div>
+
+      {% if copyright %}
+      <div class="col-md-6">
+      <p class="disclaimer">{{ copyright }}</p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
