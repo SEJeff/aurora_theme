@@ -1,0 +1,6 @@
+site_name: Apache Aurora
+site_dir: site
+docs_dir: docs
+theme_dir: aurora_theme
+site_url: https://aurora.apache.org
+copyright: Copyright 2015 <a href="http://www.apache.org/">Apache Software Foundation</a>. Licensed under the <a href="http://www.apache.org/licenses/">Apache License v2.0</a>. The <a href="https://www.flickr.com/photos/trondk/12706051375/">Aurora Borealis IX photo</a> displayed on the homepage is available under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Creative Commons BY-NC-ND 2.0 license</a>. Apache, Apache Aurora, and the Apache feather logo are trademarks of The Apache Software Foundation.
