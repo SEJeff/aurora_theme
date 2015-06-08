@@ -39,6 +39,8 @@ Currently, mkdocs [doesn't support](https://github.com/mkdocs/mkdocs/issues/608)
 
     mv docs/{README,index}.md
 
+The `docs/README.md` contains a link to `../CONTRIBUTING.md`, which mkdocs doesn't appear to handle very well at the moment. This results in a broken link to the contributing documentation.
+
 
 Viewing The Documentation
 -------------------------
