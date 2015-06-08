@@ -3,6 +3,8 @@ Aurora Theme
 
 This is a custom theme for the [Apache Aurora documentation](https://aurora.apache.org/documentation/latest) to use the most wonderful [mkdocs](http://mkdocs.org) project for rendering html documentation.
 
+This is an experiment to try and make contributing to Aurora's documentation an easier process.
+
 
 Requirements
 ------------
@@ -29,6 +31,8 @@ Ensure the mkdocs.yml is in the correct place:
 
 
 Currently, mkdocs doesn't support rendering README.md as the index page. Move docs/README.md to docs/index.md.
+
+    mv docs/{README,index}.md
 
 
 Viewing The Documentation
