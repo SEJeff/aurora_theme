@@ -25,7 +25,7 @@ Check out `aurora_theme` into the root of the aurora git checkout.
 
     cd aurora && git clone https://github.com/SEJeff/aurora_theme
 
-Ensure the mkdocs.yml is in the correct place:
+Ensure the configuration file, `mkdocs.yml`, is in the correct place:
 
     ln -s aurora_theme/mkdocs.yml .
 
