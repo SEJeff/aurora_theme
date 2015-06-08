@@ -35,7 +35,7 @@ Limitations
 
 This is really cool, so what gives?
 
-Currently, mkdocs [doesn't support](https://github.com/mkdocs/mkdocs/issues/608) rendering `README.md` as the index page. Move docs/README.md to docs/index.md.
+Currently, mkdocs [doesn't support](https://github.com/mkdocs/mkdocs/issues/608) rendering `README.md` as the index page. Move `docs/README.md` to `docs/index.md`.
 
     mv docs/{README,index}.md
 
